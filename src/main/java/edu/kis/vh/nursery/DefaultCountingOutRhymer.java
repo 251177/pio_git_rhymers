@@ -1,13 +1,13 @@
 package edu.kis.vh.nursery;
 
-public class defaultCountingOutRhymer {
+public class DefaultCountingOutRhymer {
 
     public static final int EMPTY_STACK_VALUE = -1;
     public static final int TOTAL_CAPACITY = 12;
     public static final int MAX_INDEX = 11;
     private final int[] numbers = new int[TOTAL_CAPACITY];
 
-    public int total = EMPTY_STACK_VALUE;
+    private int total = EMPTY_STACK_VALUE;
 
 
     public void countIn(int in) {
@@ -36,5 +36,8 @@ public class defaultCountingOutRhymer {
         return numbers[total--];
     }
 
+    public int getTotal() {
+        return total;
+    }
 }
 
