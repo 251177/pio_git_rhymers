@@ -7,7 +7,7 @@ public class DefaultCountingOutRhymer {
     public static final int MAX_INDEX = 11;
     private final int[] numbers = new int[TOTAL_CAPACITY];
 
-    public int total = EMPTY_STACK_VALUE;
+    private int total = EMPTY_STACK_VALUE;
 
 
     public void countIn(int in) {
@@ -36,5 +36,12 @@ public class DefaultCountingOutRhymer {
         return numbers[total--];
     }
 
+    public int getTotal() {
+        return total;
+    }
+
+    public void setTotal(int total) {
+        this.total = total;
+    }
 }
 
