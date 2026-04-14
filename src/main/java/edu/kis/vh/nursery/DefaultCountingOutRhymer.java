@@ -7,6 +7,8 @@ public class DefaultCountingOutRhymer {
     public static final int EMPTY_STACK_VALUE = -1;
     public static final int TOTAL_CAPACITY = 12;
     public static final int MAX_INDEX = 11;
+
+    // TODO: rozważyć użycie dynamicznej struktury danych zamiast tablicy o stałym rozmiarze
     private final int[] numbers = new int[TOTAL_CAPACITY];
 
     private int total = EMPTY_STACK_VALUE;
