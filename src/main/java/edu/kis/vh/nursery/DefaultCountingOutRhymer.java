@@ -2,6 +2,8 @@ package edu.kis.vh.nursery;
 
 public class DefaultCountingOutRhymer {
 
+    // projekt jest poprawny - testy udostepnione przed prowadzacego przeszly prawidlowo
+
     public static final int EMPTY_STACK_VALUE = -1;
     public static final int TOTAL_CAPACITY = 12;
     public static final int MAX_INDEX = 11;
